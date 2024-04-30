@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS1.css">
+    <title>pagina 2</title>
+
+</head>
+<body>
+    <main>
+<article class="second_page">
+<div class="mk" >
+    <img src="Imagenes/illustration-thank-you.svg" alt="">
+</div>
+
+<div class="post" >
+    <p>You selected <span id="number">0</span> out of 5</p>
+</div>
+</article>
+
+<aside class="second_page_aside">
+    <h1>Thank You!</h1>
+    <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+</aside>
+
+
+
+    </main>
+    <script>
+         let result = localStorage.getItem("result");
+        document.getElementById("number").innerHTML = result;
+    </script>
+    <footer>
+        <p>Eduardo <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">Fronted Mentor</a></p>
+    </footer>
+    
+</body>
+</html>
